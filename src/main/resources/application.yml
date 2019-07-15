@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+#=================================微信相关====================================
+#公众号
+wxpay:
+  appid: wx5beac15ca207cdd40c
+  appsecret: 5548012f33417fdsdsdd6f96b382fe548215e9
+
+#=================================数据库相关====================================
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///xd_video?useUnicode=true&chararcterEncoding=utf-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
