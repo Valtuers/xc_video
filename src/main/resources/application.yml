@@ -11,7 +11,7 @@ wxpay:
 wxopen:
   appid: wxe9ef2df5e786b62a
   appsecret: c973a39ce5d2638e95f251a893cdfac4
-  redirect_url: http://xdclasstest2.ngrok.xiaomiqiu.cn/pub/api/v1/wechat/user/callback1
+  redirect_url: http://xdclasstest2.ngrok.xiaomiqiu.cn/api/v1/wechat/user/callback
 
 #=================================数据库相关====================================
 spring:
