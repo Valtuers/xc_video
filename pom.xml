@@ -7,12 +7,12 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.6.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>net.xdclass</groupId>
     <artifactId>xdvideo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xdvideo</name>
+    <name>xd_video</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

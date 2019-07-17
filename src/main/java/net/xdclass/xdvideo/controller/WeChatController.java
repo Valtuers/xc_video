@@ -4,11 +4,13 @@ import net.xdclass.xdvideo.bean.JsonData;
 import net.xdclass.xdvideo.bean.User;
 import net.xdclass.xdvideo.config.WeChatConfig;
 import net.xdclass.xdvideo.service.UserService;
+import net.xdclass.xdvideo.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
@@ -32,11 +34,22 @@ public class WeChatController {
         return JsonData.buildSuccess(qrCodeUrl);
     }
 
+    /**
+     * 微信扫码登录回调地址
+     * @param code
+     * @param state
+     * @param response
+     * @throws IOException
+     */
     @GetMapping("/user/callback")
     public void weChatUserCallBack(@RequestParam(value = "code",required = true) String code,
-                                   String state,HttpServletResponse response) throws UnsupportedEncodingException {
-        System.out.println("code="+code);
-        System.out.println("state="+state);
+                                   String state,HttpServletResponse response) throws IOException {
         User user = userService.saveWeChatUser(code);
+        if(user != null){
+            //生成JWT
+            String token = JwtUtils.geneJsonWebToken(user);
+            //state:需要当前用户拼接http:// 这样才不会站内跳转
+            response.sendRedirect(state+"?token="+token+"&head_img="+user.getHeadImg()+"&name="+URLEncoder.encode(user.getName(),"UTF-8"));
+        }
     }
 }

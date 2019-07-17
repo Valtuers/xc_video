@@ -26,7 +26,8 @@ public class UserServiceImpl implements UserService {
     public User saveWeChatUser(String code) throws UnsupportedEncodingException {
         String accessTokenUrl = String.format(WeChatConfig.getOpenAccessTokenUrl(),
                 weChatConfig.getOpenAppId(),
-                weChatConfig.getOpenAppSecret());
+                weChatConfig.getOpenAppSecret(),
+                code);
         //获取access_token
         Map<String, Object> baseMap = HttpUtils.doGet(accessTokenUrl);
         if(baseMap == null || baseMap.isEmpty()){

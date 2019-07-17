@@ -21,6 +21,8 @@ spring:
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
+  resources:
+    static-locations: classpath:/static,classpath:/templates
 
 #=================================Mybatis相关====================================
 mybatis:
