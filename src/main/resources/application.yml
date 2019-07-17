@@ -1,13 +1,19 @@
 server:
   port: 9090
 
-#=================================Î¢ĞÅÏà¹Ø====================================
-#¹«ÖÚºÅ
+#=================================å¾®ä¿¡ç›¸å…³====================================
+#å…¬ä¼—å·
 wxpay:
   appid: wx5beac15ca207cdd40c
   appsecret: 5548012f33417fdsdsdd6f96b382fe548215e9
 
-#=================================Êı¾İ¿âÏà¹Ø====================================
+#å¼€æ”¾å¹³å°
+wxopen:
+  appid: wxe9ef2df5e786b62a
+  appsecret: c973a39ce5d2638e95f251a893cdfac4
+  redirect_url: http://xdclasstest2.ngrok.xiaomiqiu.cn/pub/api/v1/wechat/user/callback1
+
+#=================================æ•°æ®åº“ç›¸å…³====================================
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -15,3 +21,11 @@ spring:
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
+
+#=================================Mybatisç›¸å…³====================================
+mybatis:
+  configuration:
+    # ä¸‹åˆ’çº¿è½¬é©¼å³°é…ç½®
+    map-underscore-to-camel-case: true
+    # æ‰“å°sql
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

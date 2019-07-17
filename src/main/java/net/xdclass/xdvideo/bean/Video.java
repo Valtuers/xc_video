@@ -1,6 +1,7 @@
 package net.xdclass.xdvideo.bean;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * 视频表
@@ -13,9 +14,9 @@ public class Video implements Serializable {
   private String coverImg;
   private Integer viewNum;
   private Integer price;
-  private java.util.Date createTime;
+  private Date createTime;
   private Integer online;
-  private double point;
+  private Double point;
 
 
   public Integer getId() {
@@ -72,11 +73,11 @@ public class Video implements Serializable {
   }
 
 
-  public java.util.Date getCreateTime() {
+  public Date getCreateTime() {
     return createTime;
   }
 
-  public void setCreateTime(java.util.Date createTime) {
+  public void setCreateTime(Date createTime) {
     this.createTime = createTime;
   }
 
@@ -90,11 +91,11 @@ public class Video implements Serializable {
   }
 
 
-  public double getPoint() {
+  public Double getPoint() {
     return point;
   }
 
-  public void setPoint(double point) {
+  public void setPoint(Double point) {
     this.point = point;
   }
 
