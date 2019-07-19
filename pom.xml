@@ -9,10 +9,10 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>net.xdclass</groupId>
-    <artifactId>xdvideo</artifactId>
+    <groupId>net</groupId>
+    <artifactId>xcvideo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xd_video</name>
+    <name>xc_video</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
