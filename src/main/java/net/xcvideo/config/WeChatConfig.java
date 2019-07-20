@@ -42,6 +42,16 @@ public class WeChatConfig {
     private static final String OPEN_USER_INFO_URL = "https://api.weixin.qq" +
             ".com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN";
 
+    @Value("${wxpay.mch_id}")
+    public String mchId;
+
+    @Value("${wxpay.key}")
+    public String key;
+
+    @Value("${wxpay.callback}")
+    public String payCallURL;
+
+
     public String getAppId() {
         return appId;
     }
@@ -92,5 +102,29 @@ public class WeChatConfig {
 
     public static String getOpenUserInfoUrl() {
         return OPEN_USER_INFO_URL;
+    }
+
+    public String getMchId() {
+        return mchId;
+    }
+
+    public void setMchId(String mchId) {
+        this.mchId = mchId;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getPayCallURL() {
+        return payCallURL;
+    }
+
+    public void setPayCallURL(String payCallURL) {
+        this.payCallURL = payCallURL;
     }
 }

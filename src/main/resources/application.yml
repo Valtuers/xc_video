@@ -6,6 +6,12 @@ server:
 wxpay:
   appid: wx5beac15ca207cdd40c
   appsecret: 5548012f33417fdsdsdd6f96b382fe548215e9
+  #支付配置
+  #微信商户平台
+  mch_id: 1503808832
+  key: xdclasss20182018xdclass2018x018d
+  callback: 16web.tunnel.qydev.com/pub/api/v1/wechat/order/callback1
+
 
 #开放平台
 wxopen:
@@ -17,7 +23,7 @@ wxopen:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///xd_video?useUnicode=true&chararcterEncoding=utf-8
+    url: jdbc:mysql:///xc_video?useUnicode=true&chararcterEncoding=utf8
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource

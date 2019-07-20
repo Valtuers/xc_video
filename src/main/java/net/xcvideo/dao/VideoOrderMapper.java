@@ -26,7 +26,7 @@ public interface VideoOrderMapper {
      * @param videoOrder
      * @return 主键
      */
-    @Insert("INSERT INTO xc_video.video_order (openid,out_trade_no,state,create_time,notify_time,total_fee,nickname,head_img,video_id,video_title,video_img,user_id,ip,del) VALUES (#{openid},#{outTradeNo},#{state},#{createTime},#{notifyTime},#{totalFee},#{nickname},#{headImg},#{videoId},#{videoTitle},#{videoImg},#{userId},#{ip},#{del})")
+    @Insert("INSERT INTO video_order (openid,out_trade_no,state,create_time,notify_time,total_fee,nickname,head_img,video_id,video_title,video_img,user_id,ip,del) VALUES (#{openid},#{outTradeNo},#{state},#{createTime},#{notifyTime},#{totalFee},#{nickname},#{headImg},#{videoId},#{videoTitle},#{videoImg},#{userId},#{ip},#{del})")
     @Options(useGeneratedKeys = true,keyProperty = "id",keyColumn = "id")
     int insert(VideoOrder videoOrder);
 

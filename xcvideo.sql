@@ -1,27 +1,22 @@
-# ************************************************************
-# Sequel Pro SQL dump
-# Version 4499
-#
-# http://www.sequelpro.com/
-# https://github.com/sequelpro/sequelpro
-#
-# Host: 119.23.28.97 (MySQL 5.7.22)
-# Database: xd_video
-# Generation Time: 2018-06-22 15:04:45 +0000
-# ************************************************************
+/*
+SQLyog Professional v13.1.1 (64 bit)
+MySQL - 5.7.9 : Database - xc_video
+*********************************************************************
+*/
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`xc_video` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
+USE `xc_video`;
 
-# Dump of table chapter
-# ------------------------------------------------------------
+/*Table structure for table `chapter` */
 
 DROP TABLE IF EXISTS `chapter`;
 
@@ -34,10 +29,9 @@ CREATE TABLE `chapter` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+/*Data for the table `chapter` */
 
-
-# Dump of table comment
-# ------------------------------------------------------------
+/*Table structure for table `comment` */
 
 DROP TABLE IF EXISTS `comment`;
 
@@ -55,10 +49,9 @@ CREATE TABLE `comment` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+/*Data for the table `comment` */
 
-
-# Dump of table episode
-# ------------------------------------------------------------
+/*Table structure for table `episode` */
 
 DROP TABLE IF EXISTS `episode`;
 
@@ -75,10 +68,9 @@ CREATE TABLE `episode` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+/*Data for the table `episode` */
 
-
-# Dump of table user
-# ------------------------------------------------------------
+/*Table structure for table `user` */
 
 DROP TABLE IF EXISTS `user`;
 
@@ -95,10 +87,9 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+/*Data for the table `user` */
 
-
-# Dump of table video
-# ------------------------------------------------------------
+/*Table structure for table `video` */
 
 DROP TABLE IF EXISTS `video`;
 
@@ -113,29 +104,22 @@ CREATE TABLE `video` (
   `online` int(5) DEFAULT '0' COMMENT '0表示未上线，1表示上线',
   `point` double(11,2) DEFAULT '8.70' COMMENT '默认8.7，最高10分',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
-LOCK TABLES `video` WRITE;
-/*!40000 ALTER TABLE `video` DISABLE KEYS */;
+/*Data for the table `video` */
 
-INSERT INTO `video` (`id`, `title`, `summary`, `cover_img`, `view_num`, `price`, `create_time`, `online`, `point`)
-VALUES
-	(1,'SpringBoot+Maven整合Websocket课程','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,1000,NULL,0,8.70),
-	(2,'2018年 6.2新版本ELK ElasticSearch ','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',43,500,NULL,0,9.70),
-	(3,'JMeter接口测试入门到实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',53,123,NULL,0,8.70),
-	(4,'Spring Boot2.x零基础入门到高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',23,199,NULL,0,6.20),
-	(5,'亿级流量处理搜索','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',64,10,NULL,0,9.10),
-	(6,'reidis消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,10,NULL,0,6.70),
-	(7,'谷歌面试题','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',52,23,NULL,0,5.10),
-	(8,'js高级前端视频','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',54,442,NULL,0,8.70),
-	(9,'List消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',13,32,NULL,0,4.30);
+insert  into `video`(`id`,`title`,`summary`,`cover_img`,`view_num`,`price`,`create_time`,`online`,`point`) values 
+(1,'SpringBoot+Maven整合Websocket课程','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,1000,NULL,0,8.70),
+(2,'2018年 6.2新版本ELK ElasticSearch ','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',43,500,NULL,0,9.70),
+(3,'JMeter接口测试入门到实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',53,123,NULL,0,8.70),
+(4,'Spring Boot2.x零基础入门到高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',23,199,NULL,0,6.20),
+(5,'亿级流量处理搜索','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',64,10,NULL,0,9.10),
+(6,'reidis消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,10,NULL,0,6.70),
+(7,'谷歌面试题','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',52,23,NULL,0,5.10),
+(8,'js高级前端视频','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',54,442,NULL,0,8.70),
+(9,'List消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',13,32,NULL,0,4.30);
 
-/*!40000 ALTER TABLE `video` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-# Dump of table video_order
-# ------------------------------------------------------------
+/*Table structure for table `video_order` */
 
 DROP TABLE IF EXISTS `video_order`;
 
@@ -156,26 +140,17 @@ CREATE TABLE `video_order` (
   `ip` varchar(64) DEFAULT NULL COMMENT '用户ip地址',
   `del` int(5) DEFAULT '0' COMMENT '0表示未删除，1表示已经删除',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
-LOCK TABLES `video_order` WRITE;
-/*!40000 ALTER TABLE `video_order` DISABLE KEYS */;
+/*Data for the table `video_order` */
 
-INSERT INTO `video_order` (`id`, `openid`, `out_trade_no`, `state`, `create_time`, `notify_time`, `total_fee`, `nickname`, `head_img`, `video_id`, `video_title`, `video_img`, `user_id`, `ip`, `del`)
-VALUES
-	(1,'werwewfwe','dasfweqdqf',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小D','xxx',1,'SpringBoot视频','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',1,'192.154.2.32',0),
-	(2,'3452333','gasdfdf',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小X','xxx',2,'2018年 6.2新版本ELK ElasticSearch ','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',2,'192.154.2.32',0),
-	(3,'sfsd','432werew',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小C','xxx',3,'JMeter接口测试入门到实战','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',3,'192.154.2.32',0),
-	(4,'werqwe','3432',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小D','xxx',2,'2018年 6.2新版本ELK ElasticSearch ','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',1,'192.154.2.32',0);
+insert  into `video_order`(`id`,`openid`,`out_trade_no`,`state`,`create_time`,`notify_time`,`total_fee`,`nickname`,`head_img`,`video_id`,`video_title`,`video_img`,`user_id`,`ip`,`del`) values 
+(1,'werwewfwe','dasfweqdqf',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小D','xxx',1,'SpringBoot视频','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',1,'192.154.2.32',0),
+(2,'3452333','gasdfdf',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小X','xxx',2,'2018年 6.2新版本ELK ElasticSearch ','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',2,'192.154.2.32',0),
+(3,'sfsd','432werew',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小C','xxx',3,'JMeter接口测试入门到实战','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',3,'192.154.2.32',0),
+(4,'werqwe','3432',1,'2018-07-12 00:00:00','2018-07-12 00:00:00',12,'小D','xxx',2,'2018年 6.2新版本ELK ElasticSearch ','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',1,'192.154.2.32',0);
 
-/*!40000 ALTER TABLE `video_order` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
-
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
