@@ -1,12 +1,15 @@
 package net.xcvideo.service;
 
-import net.xcvideo.bean.VideoOrder;
 import net.xcvideo.bean.dto.VideoOrderDto;
+
+import java.util.SortedMap;
 
 /**
  * 订单接口
  */
 public interface VideoOrderService {
 
-    VideoOrder save(VideoOrderDto videoOrderDto) throws Exception;
+    String saveForWx(VideoOrderDto videoOrderDto) throws Exception;
+
+    boolean checkAndUpdateOrder(SortedMap<String,String> sortedMap);
 }

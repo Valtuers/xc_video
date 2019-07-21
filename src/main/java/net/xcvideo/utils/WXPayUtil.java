@@ -29,7 +29,7 @@ public class WXPayUtil {
      */
     public static Map<String, String> xmlToMap(String strXML) throws Exception {
         try {
-            Map<String, String> data = new HashMap<String, String>();
+            Map<String, String> data = new HashMap<>();
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             InputStream stream = new ByteArrayInputStream(strXML.getBytes("UTF-8"));
@@ -115,9 +115,8 @@ public class WXPayUtil {
             }
         }
 
-        sb.append("key=").append(key);
-        String sign = CommonUtils.MD5(sb.toString()).toUpperCase();
-        return sign;
+        sb.append("key="+key);
+        return CommonUtils.MD5(sb.toString()).toUpperCase();
     }
 
 
@@ -135,7 +134,20 @@ public class WXPayUtil {
         return weixinPaySign.equals(sign);
     }
 
-
+    public static SortedMap<String,String> getSortedMap(Map<String,String> map){
+        SortedMap<String, String> sortedMap = new TreeMap<>();
+        Iterator<String> iterator = map.keySet().iterator();
+        while(iterator.hasNext()){
+            String key = iterator.next();
+            String value = map.get(key);
+            String temp = "";
+            if(value != null){
+                temp = value.trim();
+            }
+            sortedMap.put(key,temp);
+        }
+        return sortedMap;
+    }
 
 
 }

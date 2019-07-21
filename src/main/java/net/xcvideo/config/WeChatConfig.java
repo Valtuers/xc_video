@@ -10,15 +10,28 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @PropertySource("classpath:application.yml")
 public class WeChatConfig {
-
+    /**
+     * 公众号支付
+     */
     @Value("${wxpay.appid}")
     private String appId;
 
     @Value("${wxpay.appsecret}")
     private String appSecret;
 
+    @Value("${wxpay.mch_id}")
+    private String mchId;
+
+    @Value("${wxpay.key}")
+    private String key;
+
+    @Value("${wxpay.notify_url}")
+    private String notifyUrl;
+
+    private static final String UNIFIED_ORDER_URL = "https://api.xdclass.net/pay/unifiedorder";
+
     /**
-     * 开放平台
+     * 开放平台登录
      */
     @Value("${wxopen.appid}")
     private String openAppId;
@@ -28,6 +41,7 @@ public class WeChatConfig {
 
     @Value("${wxopen.redirect_url}")
     private String openRedirectUrl;
+
     /**
      * 微信开放平台二维码连接
      */
@@ -41,16 +55,6 @@ public class WeChatConfig {
      */
     private static final String OPEN_USER_INFO_URL = "https://api.weixin.qq" +
             ".com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN";
-
-    @Value("${wxpay.mch_id}")
-    public String mchId;
-
-    @Value("${wxpay.key}")
-    public String key;
-
-    @Value("${wxpay.callback}")
-    public String payCallURL;
-
 
     public String getAppId() {
         return appId;
@@ -66,6 +70,34 @@ public class WeChatConfig {
 
     public void setAppSecret(String appSecret) {
         this.appSecret = appSecret;
+    }
+
+    public String getMchId() {
+        return mchId;
+    }
+
+    public void setMchId(String mchId) {
+        this.mchId = mchId;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getNotifyUrl() {
+        return notifyUrl;
+    }
+
+    public void setNotifyUrl(String notifyUrl) {
+        this.notifyUrl = notifyUrl;
+    }
+
+    public static String getUnifiedOrderUrl() {
+        return UNIFIED_ORDER_URL;
     }
 
     public String getOpenAppId() {
@@ -102,29 +134,5 @@ public class WeChatConfig {
 
     public static String getOpenUserInfoUrl() {
         return OPEN_USER_INFO_URL;
-    }
-
-    public String getMchId() {
-        return mchId;
-    }
-
-    public void setMchId(String mchId) {
-        this.mchId = mchId;
-    }
-
-    public String getKey() {
-        return key;
-    }
-
-    public void setKey(String key) {
-        this.key = key;
-    }
-
-    public String getPayCallURL() {
-        return payCallURL;
-    }
-
-    public void setPayCallURL(String payCallURL) {
-        this.payCallURL = payCallURL;
     }
 }

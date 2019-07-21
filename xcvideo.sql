@@ -109,15 +109,15 @@ CREATE TABLE `video` (
 /*Data for the table `video` */
 
 insert  into `video`(`id`,`title`,`summary`,`cover_img`,`view_num`,`price`,`create_time`,`online`,`point`) values 
-(1,'SpringBoot+Maven整合Websocket课程','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,1000,NULL,0,8.70),
-(2,'2018年 6.2新版本ELK ElasticSearch ','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',43,500,NULL,0,9.70),
-(3,'JMeter接口测试入门到实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',53,123,NULL,0,8.70),
-(4,'Spring Boot2.x零基础入门到高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',23,199,NULL,0,6.20),
-(5,'亿级流量处理搜索','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',64,10,NULL,0,9.10),
-(6,'reidis消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,10,NULL,0,6.70),
-(7,'谷歌面试题','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',52,23,NULL,0,5.10),
-(8,'js高级前端视频','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',54,442,NULL,0,8.70),
-(9,'List消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',13,32,NULL,0,4.30);
+(1,'SpringBoot+Maven整合Websocket课程','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,10,NULL,0,8.70),
+(2,'2018年 6.2新版本ELK ElasticSearch ','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',43,11,NULL,0,9.70),
+(3,'JMeter接口测试入门到实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',53,12,NULL,0,8.70),
+(4,'Spring Boot2.x零基础入门到高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',23,13,NULL,0,6.20),
+(5,'亿级流量处理搜索','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',64,14,NULL,0,9.10),
+(6,'reidis消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',12,15,NULL,0,6.70),
+(7,'谷歌面试题','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',52,16,NULL,0,5.10),
+(8,'js高级前端视频','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',54,17,NULL,0,8.70),
+(9,'List消息队列高级实战','这是概要','https://xd-video-pc-img.oss-cn-beijing.aliyuncs.com/upload/video/video_cover.png',13,18,NULL,0,4.30);
 
 /*Table structure for table `video_order` */
 

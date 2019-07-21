@@ -15,7 +15,7 @@ public interface VideoOrderMapper {
     @Select("SELECT * FROM video_order WHERE id=#{id} and del=0")
     VideoOrder findById(int id);
 
-    @Select("SELECT * FROM video_order WHERE id=#{id} and del=0")
+    @Select("SELECT * FROM video_order WHERE out_trade_no=#{outTradeNo} and del=0")
     VideoOrder findByOutTradeNo(String outTradeNo);
 
     @Select("SELECT * FROM video_order WHERE user_id=#{userId}")
@@ -30,7 +30,12 @@ public interface VideoOrderMapper {
     @Options(useGeneratedKeys = true,keyProperty = "id",keyColumn = "id")
     int insert(VideoOrder videoOrder);
 
-    @Update("update video_order set state=#{state},notify_time=#{notifyTime},openid=#{openid} where out_trade_no=#{outTradeNo} and del=0")
+    /**
+     * 根据流水号更新支付成功的订单状态
+     * @param videoOrder
+     * @return
+     */
+    @Update("update video_order set state=#{state},notify_time=#{notifyTime},openid=#{openid} where out_trade_no=#{outTradeNo} and state=0 and del=0")
     int updateVideoOrderByOutTradeNo(VideoOrder videoOrder);
 
     /**

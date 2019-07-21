@@ -4,13 +4,13 @@ server:
 #=================================微信相关====================================
 #公众号
 wxpay:
-  appid: wx5beac15ca207cdd40c
-  appsecret: 5548012f33417fdsdsdd6f96b382fe548215e9
+  appid: wx5k69f62m3jdjwx9e
+  appsecret: h38v6b05ulmi08723l8jug05hk5ct0dc
   #支付配置
   #微信商户平台
-  mch_id: 1503808832
-  key: xdclasss20182018xdclass2018x018d
-  callback: 16web.tunnel.qydev.com/pub/api/v1/wechat/order/callback1
+  mch_id: 6076622174
+  key: Iz0WOx1E6O17p1j03Q423a6gLQTL8w9g
+  notify_url: http://c3k6bh.natappfree.cc/api/v1/wechat/order/callback
 
 
 #开放平台

@@ -10,11 +10,15 @@ import net.xcvideo.dao.VideoMapper;
 import net.xcvideo.dao.VideoOrderMapper;
 import net.xcvideo.service.VideoOrderService;
 import net.xcvideo.utils.CommonUtils;
+import net.xcvideo.utils.HttpUtils;
 import net.xcvideo.utils.WXPayUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
@@ -34,7 +38,8 @@ public class VideoOrderServiceImpl implements VideoOrderService {
     WeChatConfig weChatConfig;
 
     @Override
-    public VideoOrder save(VideoOrderDto videoOrderDto) throws Exception {
+    @Transactional(propagation = Propagation.REQUIRED)
+    public String saveForWx(VideoOrderDto videoOrderDto) throws Exception {
         //查找视频信息
         Video video = videoMapper.findById(videoOrderDto.getVideoId());
 
@@ -55,7 +60,6 @@ public class VideoOrderServiceImpl implements VideoOrderService {
             setIp(videoOrderDto.getIp());
             setOutTradeNo(CommonUtils.generateUUID());
             setVideoId(video.getId());
-            setOpenid(user.getOpenid());
         }};
         videoOrderMapper.insert(videoOrder);
         //生成签名
@@ -67,20 +71,40 @@ public class VideoOrderServiceImpl implements VideoOrderService {
         params.put("out_trade_no",videoOrder.getOutTradeNo());
         params.put("total_fee",videoOrder.getTotalFee().toString());
         params.put("spbill_create_ip",videoOrder.getIp());
-        params.put("notify_url",weChatConfig.getPayCallURL());
+        params.put("notify_url",weChatConfig.getNotifyUrl());
         params.put("trade_type","NATIVE");
-        String sign = WXPayUtil.createSign(params, weChatConfig.getKey());
-        params.put("sign",sign);
+        //生成签名
+        params.put("sign",WXPayUtil.createSign(params, weChatConfig.getKey()));
 
         //map转xml
-        String s = WXPayUtil.mapToXml(params);
-        System.out.println(s);
+        String payXml = WXPayUtil.mapToXml(params);
+
         //统一下单
+        String orderStr = HttpUtils.doPost(WeChatConfig.getUnifiedOrderUrl(), payXml, 5000);
+        if(orderStr == null){
+            return null;
+        }
 
         //获取codeURL
+        Map<String, String> unifiedOrderMap = WXPayUtil.xmlToMap(orderStr);
+        return unifiedOrderMap.get("code_url");
+    }
 
-        //生成二维码
-
-        return null;
+    @Override
+    @Transactional()
+    public boolean checkAndUpdateOrder(SortedMap<String,String> sortedMap) {
+        String outTradeNo = sortedMap.get("out_trade_no");
+        VideoOrder dbVideoOrder = videoOrderMapper.findByOutTradeNo(outTradeNo);
+        if(dbVideoOrder != null && dbVideoOrder.getState() == 0){
+            VideoOrder videoOrder = new VideoOrder() {{
+                setOpenid(sortedMap.get("openid"));
+                setOutTradeNo(outTradeNo);
+                setNotifyTime(new Date());
+                setState(1);
+            }};
+            int i = videoOrderMapper.updateVideoOrderByOutTradeNo(videoOrder);
+            return i>0;
+        }
+        return false;
     }
 }
