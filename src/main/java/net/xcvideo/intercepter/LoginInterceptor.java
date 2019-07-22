@@ -31,7 +31,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         if(token != null){
             Claims claims = JwtUtils.checkJwt(token);
             if(claims != null){
-                request.setAttribute("userId",(Integer)claims.get("id"));
+                request.setAttribute("user_id",(Integer)claims.get("id"));
                 request.setAttribute("name",(String)claims.get("name"));
                 return true;
             }

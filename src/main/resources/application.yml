@@ -10,7 +10,7 @@ wxpay:
   #微信商户平台
   mch_id: 6076622174
   key: Iz0WOx1E6O17p1j03Q423a6gLQTL8w9g
-  notify_url: http://c3k6bh.natappfree.cc/api/v1/wechat/order/callback
+  notify_url: http://xdclasstest2.ngrok.xiaomiqiu.cn/api/v1/wechat/order/callback
 
 
 #开放平台

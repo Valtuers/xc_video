@@ -14,7 +14,7 @@ public class JwtUtils {
 
     private static final String SUBJECT = "xd_video";
     //过期时间
-    private static final long EXPIRE = 1000*60;
+    private static final long EXPIRE = 1000*60*60;
     //密钥
     public static final String APPSECRET = "mc666";
 

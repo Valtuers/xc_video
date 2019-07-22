@@ -1,14 +1,12 @@
-
-var host = "http://127.0.0.1:9090"
-var global_login_url = ""  //全局扫描登录
+var host = "http://xdclasstest2.ngrok.xiaomiqiu.cn";
+var global_login_url = "";  //全局扫描登录
 
 //下单
 function save_order(id){
 	var token =$.cookie("token");
-	if(!token || token == ""){
+	if(!token || token === ""){
 		//去登录
 		window.location.href=global_login_url;
-
 	}
 	//下单接口
 	var url = host+"/user/api/v1/order/add?token="+token + "&video_id="+id;
@@ -16,10 +14,7 @@ function save_order(id){
 
 }
 
-
 $(function(){
-
-
 	//获取视频列表
 	function get_list(){
 
@@ -43,7 +38,6 @@ $(function(){
 				}
 	})}
 
-
 	//获取微信扫描地址
 	function get_wechat_login(){
 		//获取当前页面地址
@@ -64,9 +58,9 @@ $(function(){
 	function get_params(){
 		var url = window.location.search;//获取?后面的字符串
 		var obj = new Object();
-		if(url.indexOf("?")!=-1){
+		if(url.indexOf("?") !== -1){
 			var str = url.substr(1);
-			strs = str.split("&")
+			var strs = str.split("&");
 			for(var i=0; i<strs.length; i++){
 				obj[strs[i].split("=")[0]] = decodeURI( strs[i].split("=")[1]);
 			}
@@ -75,41 +69,36 @@ $(function(){
 		return obj;
 	}
 
-
 	//设置头像和昵称
 	function set_user_info(){
 		var user_info = get_params();
-		var head_img  = $.cookie('head_img')
-		var name = $.cookie('name')
+		var head_img  = $.cookie('head_img');
+		var name = $.cookie('name');
 
-		if(JSON.stringify(user_info) != '{}'){
+		if(JSON.stringify(user_info) !== '{}'){
 			//对象不为空
 			var name = user_info['name'];
-			var head_img = user_info['head_img']
-			var token = user_info['token']
-			console.log(name)
-			console.log(head_img)
+			var head_img = user_info['head_img'];
+			var token = user_info['token'];
+			console.log(name);
+			console.log(head_img);
 
-			$("#login").html(name)
+			$("#login").html(name);
 			$("#head_img").attr("src",head_img);
-			$.cookie('token',token,{expires:7,path:'/'})
-			$.cookie('head_img',head_img,{expires:7,path:'/'})
-			$.cookie('name',name,{expires:7,path:'/'})
+			$.cookie('token',token,{expires:7,path:'/'});
+			$.cookie('head_img',head_img,{expires:7,path:'/'});
+			$.cookie('name',name,{expires:7,path:'/'});
 
-		} else if(name && name != ""){
-			
-				$("#login").html(name)
+		} else if(name && name !== ""){
+				$("#login").html(name);
 				$("#head_img").attr("src",head_img);
 		}
 
 	}
-
-
-
 
 	get_list();
 	get_wechat_login();
 	get_params();
 	set_user_info();
 
-})
+});
