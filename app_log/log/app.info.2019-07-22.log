@@ -1,0 +1,548 @@
+2019-07-22 15:21:49.441 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 15:21:49.442 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 15:21:49.569 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 15:21:49.570 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 15:21:49.576 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 15:21:49.602 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 15:21:49.666 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 15:21:49.667 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 15:21:49.668 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 15:21:49.682 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 15:21:49.682 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 239 ms
+2019-07-22 15:21:49.775 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:21:49.795 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 15:21:49.832 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 15:21:49.850 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 15:21:49.850 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.6 seconds (JVM running for 1216.66)
+2019-07-22 15:21:49.851 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 15:24:53.452 INFO [Thread-99]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:24:53.453 INFO [Thread-99]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 15:24:53.768 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 15:24:53.768 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 15:24:53.907 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 15:24:53.907 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 15:24:53.911 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-22 15:24:53.946 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 15:24:54.006 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 15:24:54.007 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 15:24:54.007 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 15:24:54.018 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 15:24:54.019 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 249 ms
+2019-07-22 15:24:54.118 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:24:54.142 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 15:24:54.193 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 15:24:54.207 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 15:24:54.207 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.461 seconds (JVM running for 1401.017)
+2019-07-22 15:24:54.209 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 15:25:26.846 INFO [http-nio-9090-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 15:25:26.847 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 15:25:26.850 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 3 ms
+2019-07-22 15:25:39.480 INFO [http-nio-9090-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-1} inited
+2019-07-22 15:25:39.712 INFO [http-nio-9090-exec-1]dataLogger.saveForWx:48 -module=video_order`api=save`user_id=1`video_id=1
+2019-07-22 15:25:41.579 WARN [http-nio-9090-exec-1]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.logException:198 -Resolved [java.lang.NullPointerException]
+2019-07-22 15:25:48.335 INFO [http-nio-9090-exec-4]dataLogger.saveForWx:48 -module=video_order`api=save`user_id=1`video_id=2
+2019-07-22 15:25:49.393 WARN [http-nio-9090-exec-4]o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.logException:198 -Resolved [java.lang.NullPointerException]
+2019-07-22 15:38:07.216 INFO [Thread-105]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:38:07.218 INFO [Thread-105]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-1} closing ...
+2019-07-22 15:38:07.231 INFO [Thread-105]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-1} closed
+2019-07-22 15:38:07.552 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 15:38:07.553 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 15:38:07.686 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 15:38:07.686 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 15:38:07.690 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-22 15:38:07.716 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 15:38:07.768 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 15:38:07.769 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 15:38:07.769 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 15:38:07.779 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 15:38:07.780 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 226 ms
+2019-07-22 15:38:07.869 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:38:07.887 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 15:38:07.924 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 15:38:07.939 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 15:38:07.939 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.406 seconds (JVM running for 2194.748)
+2019-07-22 15:38:07.940 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 15:39:01.556 INFO [Thread-111]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:39:01.560 INFO [Thread-111]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 15:39:01.906 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 15:39:01.906 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 15:39:02.045 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 15:39:02.045 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 15:39:02.049 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-22 15:39:02.078 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 15:39:02.133 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 15:39:02.134 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 15:39:02.134 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 15:39:02.146 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 15:39:02.146 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 238 ms
+2019-07-22 15:39:02.233 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:39:02.251 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 15:39:02.289 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 15:39:02.305 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 15:39:02.305 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.417 seconds (JVM running for 2249.114)
+2019-07-22 15:39:02.307 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 15:39:20.781 INFO [Thread-117]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:39:20.782 INFO [Thread-117]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 15:39:21.061 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 15:39:21.061 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 15:39:21.188 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 15:39:21.189 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 15:39:21.194 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 15:39:21.218 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 15:39:21.271 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 15:39:21.272 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 15:39:21.272 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 15:39:21.282 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 15:39:21.282 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 220 ms
+2019-07-22 15:39:21.369 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 15:39:21.387 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 15:39:21.422 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 15:39:21.437 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 15:39:21.437 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.397 seconds (JVM running for 2268.246)
+2019-07-22 15:39:21.439 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:02:19.869 INFO [http-nio-9090-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:02:19.870 INFO [http-nio-9090-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:02:19.874 INFO [http-nio-9090-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 4 ms
+2019-07-22 16:02:19.902 INFO [http-nio-9090-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-2} inited
+2019-07-22 16:05:55.877 INFO [Thread-123]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:05:55.877 INFO [Thread-123]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-2} closing ...
+2019-07-22 16:05:55.878 INFO [Thread-123]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-2} closed
+2019-07-22 16:05:56.257 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 24296 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:05:56.257 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:05:56.421 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:05:56.421 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:05:56.426 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 16:05:56.466 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c5a18a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:05:56.533 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:05:56.534 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:05:56.534 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:05:56.547 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:05:56.548 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 289 ms
+2019-07-22 16:05:56.645 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:05:56.699 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:05:56.714 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:05:56.715 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.487 seconds (JVM running for 3863.524)
+2019-07-22 16:05:56.716 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:05:57.197 INFO [http-nio-9090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:05:57.197 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:05:57.200 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 3 ms
+2019-07-22 16:06:11.165 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 19764 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:06:11.168 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:06:11.222 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-22 16:06:11.222 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-22 16:06:11.715 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:06:11.717 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:06:11.737 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-07-22 16:06:11.925 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a0c6032] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:06:12.151 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:06:12.164 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9090"]
+2019-07-22 16:06:12.170 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:06:12.170 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:06:12.243 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:06:12.243 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 1021 ms
+2019-07-22 16:06:12.602 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:06:12.918 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:06:12.938 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9090"]
+2019-07-22 16:06:12.954 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:06:12.956 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 2.117 seconds (JVM running for 2.783)
+2019-07-22 16:06:19.024 INFO [http-nio-9090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:06:19.024 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:06:19.030 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-07-22 16:15:34.638 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:15:34.640 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:15:34.689 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-22 16:15:34.689 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-22 16:15:35.180 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:15:35.182 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:15:35.202 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-07-22 16:15:35.388 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:15:35.614 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:15:35.626 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9090"]
+2019-07-22 16:15:35.633 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:15:35.633 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:15:35.704 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:15:35.704 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 1014 ms
+2019-07-22 16:15:36.051 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:15:36.127 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [templates/index.html]
+2019-07-22 16:15:36.366 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:60 -Unable to start LiveReload server
+2019-07-22 16:15:36.387 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9090"]
+2019-07-22 16:15:36.404 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:15:36.406 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 2.09 seconds (JVM running for 2.735)
+2019-07-22 16:15:40.233 INFO [http-nio-9090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:15:40.234 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:15:40.241 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-07-22 16:16:07.391 INFO [Thread-2]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:16:07.391 INFO [Thread-2]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 16:16:12.541 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:16:12.542 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:16:12.719 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.warn:44 -No MyBatis mapper was found in '[net.xcvideo]' package. Please check your configuration.
+2019-07-22 16:16:12.728 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:16:12.729 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:16:12.730 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-07-22 16:16:12.777 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:16:12.882 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:16:12.883 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:16:12.883 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:16:12.901 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:16:12.902 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 359 ms
+2019-07-22 16:16:13.013 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:16:13.052 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [templates/index.html]
+2019-07-22 16:16:13.260 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:60 -Unable to start LiveReload server
+2019-07-22 16:16:13.278 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:16:13.279 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.782 seconds (JVM running for 39.608)
+2019-07-22 16:16:13.290 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:58 -Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-07-22 16:16:14.682 INFO [Thread-15]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 16:16:14.683 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:16:15.003 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:16:15.003 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:16:15.162 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:16:15.162 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:16:15.167 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 16:16:15.201 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:16:15.287 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:16:15.289 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:16:15.289 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:16:15.303 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:16:15.303 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 298 ms
+2019-07-22 16:16:15.415 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:16:15.434 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [templates/index.html]
+2019-07-22 16:16:15.472 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:60 -Unable to start LiveReload server
+2019-07-22 16:16:15.488 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:16:15.489 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.512 seconds (JVM running for 41.818)
+2019-07-22 16:16:15.492 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:58 -Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) found beans of type 'javax.sql.DataSource' dataSource (OnBeanCondition)
+      Matched:
+         - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration:
+      Did not match:
+         - DevTools DataSource Condition did not find an auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperFactoryBean' &userMapper, &videoMapper, &videoOrderMapper (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-07-22 16:16:22.293 INFO [http-nio-9090-exec-1]o.a.c.core.ContainerBase.[Tomcat-1].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:16:22.296 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:16:22.305 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-07-22 16:16:22.484 INFO [http-nio-9090-exec-7]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-1} inited
+2019-07-22 16:19:46.701 INFO [Thread-24]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:19:46.702 INFO [Thread-24]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-1} closing ...
+2019-07-22 16:19:46.704 INFO [Thread-24]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-1} closed
+2019-07-22 16:19:50.787 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:19:50.787 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:19:50.928 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.warn:44 -No MyBatis mapper was found in '[net.xcvideo]' package. Please check your configuration.
+2019-07-22 16:19:50.933 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:19:50.933 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:19:50.934 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-07-22 16:19:50.959 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:19:51.060 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:19:51.061 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:19:51.062 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:19:51.077 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:19:51.077 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 288 ms
+2019-07-22 16:19:51.137 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:19:51.155 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [templates/index.html]
+2019-07-22 16:19:51.242 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:60 -Unable to start LiveReload server
+2019-07-22 16:19:51.265 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:19:51.267 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.521 seconds (JVM running for 257.597)
+2019-07-22 16:19:51.271 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:58 -Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-07-22 16:19:52.697 INFO [Thread-30]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-0} closing ...
+2019-07-22 16:19:52.706 INFO [Thread-30]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:19:53.098 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:19:53.098 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:19:53.239 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:19:53.239 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:19:53.246 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-07-22 16:19:53.276 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:19:53.340 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:19:53.341 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:19:53.341 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:19:53.352 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:19:53.353 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 254 ms
+2019-07-22 16:19:53.450 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:19:53.470 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [templates/index.html]
+2019-07-22 16:19:53.515 WARN [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:60 -Unable to start LiveReload server
+2019-07-22 16:19:53.534 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:19:53.534 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.456 seconds (JVM running for 259.864)
+2019-07-22 16:19:53.536 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:58 -Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) found beans of type 'javax.sql.DataSource' dataSource (OnBeanCondition)
+      Matched:
+         - AnyNestedCondition 2 matched 0 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) matched (DataSourceAutoConfiguration.PooledDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration:
+      Did not match:
+         - DevTools DataSource Condition did not find an auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperFactoryBean' &userMapper, &videoMapper, &videoOrderMapper (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-07-22 16:19:59.345 INFO [http-nio-9090-exec-1]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:19:59.346 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:19:59.354 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-07-22 16:19:59.471 INFO [http-nio-9090-exec-3]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-2} inited
+2019-07-22 16:29:13.389 INFO [Thread-39]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:29:13.390 INFO [Thread-39]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-2} closing ...
+2019-07-22 16:29:13.391 INFO [Thread-39]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-2} closed
+2019-07-22 16:29:13.713 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:29:13.713 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:29:13.871 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:29:13.871 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:29:13.876 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 16:29:13.904 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:29:13.957 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:29:13.957 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:29:13.957 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:29:13.970 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:29:13.970 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 255 ms
+2019-07-22 16:29:14.052 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:29:14.072 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 16:29:14.109 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:29:14.124 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:29:14.124 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.439 seconds (JVM running for 820.454)
+2019-07-22 16:29:14.125 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:29:15.639 INFO [http-nio-9090-exec-3]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:29:15.640 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:29:15.647 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-07-22 16:29:15.649 INFO [http-nio-9090-exec-3]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-3} inited
+2019-07-22 16:31:50.280 INFO [Thread-49]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:31:50.281 INFO [Thread-49]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-3} closing ...
+2019-07-22 16:31:50.282 INFO [Thread-49]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-3} closed
+2019-07-22 16:31:50.631 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:31:50.631 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:31:50.771 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:31:50.772 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:31:50.776 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-22 16:31:50.803 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:31:50.857 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:31:50.857 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:31:50.857 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:31:50.869 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:31:50.869 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 237 ms
+2019-07-22 16:31:50.960 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:31:50.981 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 16:31:51.018 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:31:51.034 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:31:51.035 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.422 seconds (JVM running for 977.364)
+2019-07-22 16:31:51.036 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:31:51.884 INFO [http-nio-9090-exec-1]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:31:51.885 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:31:51.888 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 3 ms
+2019-07-22 16:31:51.891 INFO [http-nio-9090-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-4} inited
+2019-07-22 16:31:58.888 INFO [Thread-53]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:31:58.889 INFO [Thread-53]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-4} closing ...
+2019-07-22 16:31:58.889 INFO [Thread-53]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-4} closed
+2019-07-22 16:31:59.150 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:31:59.150 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:31:59.280 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:31:59.281 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:31:59.286 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 16:31:59.312 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:31:59.365 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:31:59.366 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:31:59.366 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:31:59.378 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:31:59.378 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 226 ms
+2019-07-22 16:31:59.463 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:31:59.482 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 16:31:59.518 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:31:59.533 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:31:59.534 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.415 seconds (JVM running for 985.864)
+2019-07-22 16:31:59.535 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:31:59.638 INFO [http-nio-9090-exec-4]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:31:59.638 INFO [http-nio-9090-exec-4]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:31:59.640 INFO [http-nio-9090-exec-4]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 2 ms
+2019-07-22 16:31:59.642 INFO [http-nio-9090-exec-4]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-5} inited
+2019-07-22 16:32:04.948 INFO [Thread-59]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:32:04.949 INFO [Thread-59]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-5} closing ...
+2019-07-22 16:32:04.949 INFO [Thread-59]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-5} closed
+2019-07-22 16:32:05.216 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:32:05.216 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:32:05.353 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:32:05.354 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:32:05.358 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-22 16:32:05.388 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:32:05.440 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:32:05.441 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:32:05.441 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:32:05.453 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:32:05.453 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 236 ms
+2019-07-22 16:32:05.544 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:32:05.563 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 16:32:05.601 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:32:05.616 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:32:05.616 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.417 seconds (JVM running for 991.945)
+2019-07-22 16:32:05.617 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:32:05.656 INFO [http-nio-9090-exec-3]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:32:05.657 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:32:05.659 INFO [http-nio-9090-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 2 ms
+2019-07-22 16:32:05.661 INFO [http-nio-9090-exec-3]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-6} inited
+2019-07-22 16:54:55.957 INFO [Thread-65]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:54:55.959 INFO [Thread-65]com.alibaba.druid.pool.DruidDataSource.close:1885 -{dataSource-6} closing ...
+2019-07-22 16:54:55.960 INFO [Thread-65]com.alibaba.druid.pool.DruidDataSource.close:1955 -{dataSource-6} closed
+2019-07-22 16:54:56.339 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarting:50 -Starting XcVideoApplication on DESKTOP-TQGU9NB with PID 22892 (started by Sasuke in D:\IntelliJ IDEA\project\xc_video)
+2019-07-22 16:54:56.339 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStartupProfileInfo:646 -No active profile set, falling back to default profiles: default
+2019-07-22 16:54:56.471 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-22 16:54:56.471 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-22 16:54:56.476 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-22 16:54:56.501 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d04d3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-22 16:54:56.556 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 9090 (http)
+2019-07-22 16:54:56.557 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-22 16:54:56.557 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-22 16:54:56.568 INFO [restartedMain]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-22 16:54:56.568 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 227 ms
+2019-07-22 16:54:56.655 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-22 16:54:56.674 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:54 -Adding welcome page: class path resource [static/index.html]
+2019-07-22 16:54:56.711 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-22 16:54:56.725 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 9090 (http) with context path ''
+2019-07-22 16:54:56.726 INFO [restartedMain]net.xcvideo.XcVideoApplication.logStarted:59 -Started XcVideoApplication in 0.405 seconds (JVM running for 2363.055)
+2019-07-22 16:54:56.727 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 -Condition evaluation unchanged
+2019-07-22 16:54:56.953 INFO [http-nio-9090-exec-1]o.a.c.core.ContainerBase.[Tomcat-2].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-22 16:54:56.953 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-22 16:54:56.956 INFO [http-nio-9090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 3 ms
+2019-07-22 16:54:56.958 INFO [http-nio-9090-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1002 -{dataSource-7} inited

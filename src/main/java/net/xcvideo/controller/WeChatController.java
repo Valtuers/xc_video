@@ -23,6 +23,7 @@ import java.util.Map;
 import java.util.SortedMap;
 
 @Controller
+@CrossOrigin
 @RequestMapping("/api/v1/wechat")
 public class WeChatController {
     @Autowired

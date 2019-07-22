@@ -6,30 +6,23 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import net.xcvideo.bean.JsonData;
 import net.xcvideo.bean.dto.VideoOrderDto;
 import net.xcvideo.service.VideoOrderService;
 import net.xcvideo.utils.IpUtils;
-import net.xcvideo.utils.WXPayUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.ServletInputStream;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.security.spec.EncodedKeySpec;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/v1/order")
+@RequestMapping("/user/api/v1/order")
 public class VideoOrderController {
 
     @Autowired
@@ -38,9 +31,8 @@ public class VideoOrderController {
     @GetMapping("/add")
     public void saveOrderForWx(@RequestParam(value = "video_id",required = true)int video_id,
                                    HttpServletRequest request, HttpServletResponse response) throws Exception {
-//        String ip = IpUtils.getIpAddr(request);   暂时写死ip地址
-        String ip = "120.25.1.43";
-        int userId = 1;
+        String ip = IpUtils.getIpAddr(request);
+        int userId = (Integer)request.getAttribute("user_id");
         VideoOrderDto videoOrderDto = new VideoOrderDto() {{
             setUserId(userId);
             setVideoId(video_id);
