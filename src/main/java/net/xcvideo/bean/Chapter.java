@@ -1,6 +1,5 @@
 package net.xcvideo.bean;
 
-
 import java.io.Serializable;
 import java.util.Date;
 

@@ -78,7 +78,6 @@
         <appender-ref ref="dataApp" />
     </logger>
 
-
     <root level="INFO">
         <appender-ref ref="consoleApp"/>
         <appender-ref ref="fileInfoApp"/>

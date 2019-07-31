@@ -1,6 +1,5 @@
 package net.xcvideo.controller.admin;
 
-
 import net.xcvideo.bean.Video;
 import net.xcvideo.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;

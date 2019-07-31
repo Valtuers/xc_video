@@ -2,7 +2,6 @@ package net.xcvideo.utils;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
 import javax.servlet.http.HttpServletRequest;
 
 public class IpUtils {

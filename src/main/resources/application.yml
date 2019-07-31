@@ -12,7 +12,6 @@ wxpay:
   key: Iz0WOx1E6O17p1j03Q423a6gLQTL8w9g
   notify_url: http://xdclasstest2.ngrok.xiaomiqiu.cn/api/v1/wechat/order/callback
 
-
 #开放平台
 wxopen:
   appid: wxe9ef2df5e786b62a

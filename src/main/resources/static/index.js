@@ -100,5 +100,4 @@ $(function(){
 	get_wechat_login();
 	get_params();
 	set_user_info();
-
 });
